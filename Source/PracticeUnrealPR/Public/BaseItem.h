@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -17,4 +17,8 @@ protected:
 
 public:	
 	virtual void Tick(float DeltaTime) override;
+
+
+private:
+	int ItemID;
 };
