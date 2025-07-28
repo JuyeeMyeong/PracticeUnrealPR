@@ -15,6 +15,5 @@ void ABaseItem::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	// I'm Bug
 }
 
